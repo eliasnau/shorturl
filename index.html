@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="URLshortener.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>URL Shortener</h1>
+      <input
+        type="text"
+        class="text-input"
+        name="url"
+        placeholder="Enter your URL here"
+        required
+        id="url-input"
+      />
+      <button type="button" class="btn" name="myButton" id="shorten-button">
+        Shorten URL
+      </button>
+      <p class="shortened-link" id="shortened-link"></p>
+      <button class="copy-button" id="copy-button">
+        <i class="fas fa-copy"></i> Copy
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
